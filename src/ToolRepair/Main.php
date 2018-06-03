@@ -16,7 +16,7 @@ use pocketmine\level\Level;
 use pocketmine\Server;
 use pocketmine\entity\Effect;
 use pocketmine\item\enchantment\Enchantment;
-use pocketmine\event\player\{PlayerChatEvent, PlayerCommandPreprocessEvent}
+use pocketmine\event\player\{PlayerChatEvent, PlayerCommandPreprocessEvent};
 use pocketmine\item\Tool;
 use pocketmine\item\Armor;
 
