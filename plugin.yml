@@ -1,19 +1,26 @@
 ---
-name: ToolRepair
+name: BlackRepair
+main: BlackTeam\BlackRepair\Main
 version: 1.0.0
-main: ToolRepair\Main
-api: 3.0.0-ALPHA12
-load: STARTUP
-author: ArceusMatt
-description: Repair tools & armor.
-website: https://github.com/arceusmatt
-
-commands:
-    fix:
-        description: Tool & armor repair.
-        permission: fix.cmd
+api: [3.2.0]
+author: BlackTeam
 permissions:
-  fix.cmd:
+  repair.command.use:
     default: op
-    description: "Repair tools & armor."
+  repair.command.use.hand:
+    default: op
+  repair.command.use.all:
+    default: op
+  repair.sign.create:
+    default: op
+  repair.sign.break:
+    default: op
+  repair.sign.place:
+    default: op
+  repair.sign.use:
+    default: op
+  repair.sign.use.hand:
+    default: op
+  repair.sign.use.all:
+    default: op
 ...
